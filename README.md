@@ -53,4 +53,6 @@ primary 50.000 0.010
 If you install another oscillator on the board (P127), you can
 generate a different set of clocks. 
 
+## License
+JavaTitrationApplet is licensed under <B>the MIT License</B> - see the `LICENSE` file for details.
 
