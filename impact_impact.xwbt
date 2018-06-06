@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=C:\Users\Jungho\workspace-xilinx\clock_pll_275MHz\impact.xsl
+OUTFILE=C:\Users\Jungho\workspace-xilinx\clock_pll_275MHz\impact.xsl
+FAMILY=Single
+PART=Single
+WORKINGDIR=C:\Users\Jungho\workspace-xilinx\clock_pll_275MHz
+LICENSE=iMPACT
+USER_INFO=iMPACT

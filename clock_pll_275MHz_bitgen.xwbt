@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Jungho\workspace-xilinx\clock_pll_275MHz\clock_pll_275MHz.ncd
+OUTFILE=C:\Users\Jungho\workspace-xilinx\clock_pll_275MHz\clock_pll_275MHz.bit
+FAMILY=Spartan6
+PART=xc6slx9-2tqg144
+WORKINGDIR=C:\Users\Jungho\workspace-xilinx\clock_pll_275MHz
+LICENSE=WebPack
+USER_INFO=211438291_0_0_512

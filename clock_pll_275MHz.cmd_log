@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "C:/Users/Jungho/workspace-xilinx/clock_pll_275MHz/clock_pll_275MHz.xst" -ofn "C:/Users/Jungho/workspace-xilinx/clock_pll_275MHz/clock_pll_275MHz.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc clock_pll_275MHz.ucf -p xc6slx9-tqg144-2 clock_pll_275MHz.ngc clock_pll_275MHz.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr b -lc off -power off -o clock_pll_275MHz_map.ncd clock_pll_275MHz.ngd clock_pll_275MHz.pcf 
+par -w -intstyle ise -ol high -mt off clock_pll_275MHz_map.ncd clock_pll_275MHz.ncd clock_pll_275MHz.pcf 
+trce -intstyle ise -e 3 -s 2 -n 3 -xml clock_pll_275MHz.twx clock_pll_275MHz.ncd -o clock_pll_275MHz.twr clock_pll_275MHz.pcf -ucf clock_pll_275MHz.ucf 
+bitgen -intstyle ise -f clock_pll_275MHz.ut clock_pll_275MHz.ncd 

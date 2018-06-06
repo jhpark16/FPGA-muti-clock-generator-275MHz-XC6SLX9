@@ -1,0 +1,2 @@
+vhdl work "ipcore_dir/pll_clock.vhd"
+vhdl work "clock_pll_275MHz.vhd"

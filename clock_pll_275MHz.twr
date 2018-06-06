@@ -1,0 +1,76 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -e 3 -s 2
+-n 3 -xml clock_pll_275MHz.twx clock_pll_275MHz.ncd -o clock_pll_275MHz.twr
+clock_pll_275MHz.pcf -ucf clock_pll_275MHz.ucf
+
+Design file:              clock_pll_275MHz.ncd
+Physical constraint file: clock_pll_275MHz.pcf
+Device,package,speed:     xc6slx9,tqg144,C,-2 (PRODUCTION 1.23 2013-10-13)
+Report level:             error report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock clk to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+clk_out<0>  |         5.572(R)|      SLOW  |         1.976(R)|      FAST  |clk_int<0>        |   0.000|
+            |         5.572(F)|      SLOW  |         1.982(F)|      FAST  |clk_int<0>        |   0.000|
+clk_out<1>  |         5.622(R)|      SLOW  |         2.026(R)|      FAST  |clk_int<1>        |   0.000|
+            |         5.622(F)|      SLOW  |         2.032(F)|      FAST  |clk_int<1>        |   0.000|
+clk_out<2>  |         5.675(R)|      SLOW  |         2.089(R)|      FAST  |clk_int<2>        |   0.000|
+            |         5.613(F)|      SLOW  |         2.023(F)|      FAST  |clk_int<2>        |   0.000|
+clk_out<3>  |         5.625(R)|      SLOW  |         2.039(R)|      FAST  |clk_int<3>        |   0.000|
+            |         5.563(F)|      SLOW  |         1.973(F)|      FAST  |clk_int<3>        |   0.000|
+clk_out<4>  |         5.624(R)|      SLOW  |         2.038(R)|      FAST  |clk_int<4>        |   0.000|
+            |         5.563(F)|      SLOW  |         1.973(F)|      FAST  |clk_int<4>        |   0.000|
+clk_out<5>  |         5.618(R)|      SLOW  |         2.022(R)|      FAST  |clk_int<5>        |   0.000|
+            |         5.618(F)|      SLOW  |         2.028(F)|      FAST  |clk_int<5>        |   0.000|
+clk_out<6>  |         7.628(R)|      SLOW  |         3.168(R)|      FAST  |clk_int<0>        |   0.000|
+clk_out<7>  |         7.806(R)|      SLOW  |         3.191(R)|      FAST  |clk_int<4>        |   0.000|
+miao_out    |         7.235(R)|      SLOW  |         3.143(R)|      FAST  |clk_int<0>        |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    5.315|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Thu Jun 07 00:35:55 2018 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 208 MB
+
+
+
