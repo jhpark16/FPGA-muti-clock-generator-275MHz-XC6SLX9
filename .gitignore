@@ -22,6 +22,12 @@
 *.cmd_log
 *_beh.prj
 *.ncd
+*.gise
+*.xwbt
+*.msd
+*.rbb
+*.rbd
+
 isim
 db
 incremental_db
