@@ -157,11 +157,12 @@ begin
   -- process using clk_int(0) (275 MHz)
   process(clk_int(0))
     -- defintion for counters
-    variable cnt1:integer range 0 to 68749999; --frequency division by 137 500 000 (0.5 sec)
-    variable cnt2:integer range 0 to 9;  --frequency division by 20
+	 -- The initial values of the cnt1 and cnt2 are 0
+    variable cnt1:integer range 0 to 68749999 := 0; --frequency division by 137 500 000 (0.5 sec)
+    variable cnt2:integer range 0 to 9 := 0;  --frequency division by 20
     -- flipflops
-    variable ff1:std_logic; 
-    variable ff2:std_logic; 
+    variable ff1:std_logic := '0'; 
+    variable ff2:std_logic := '0'; 
     begin
       if clk_int(0)'event and clk_int(0)='1' then
 	     -- divide the clock by 137 500 000 (0.5 sec)
@@ -186,8 +187,9 @@ begin
 
   -- process using clk_int(4) (117.857 MHz)
   process(clk_int(4))
-    variable cnt1:integer range 0 to 3; -- divide the clock by 8
-    variable ff1:std_logic; 
+	 -- The initial values of the cnt1 is 0
+    variable cnt1:integer range 0 to 3 := 0; -- divide the clock by 8
+    variable ff1:std_logic := '0'; 
     begin
       if clk_int(4)'event and clk_int(4)='1' then
 	     -- divide the clock by 8
