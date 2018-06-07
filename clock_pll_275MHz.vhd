@@ -59,7 +59,7 @@ use UNISIM.vcomponents.all;
 
 entity clock_pll_275MHz is
 
-port(clk      :in std_logic;  --CLK 50M INPUT PIN 126
+port(clk_in      :in std_logic;  --CLK 50M INPUT PIN 126
      --  You can also have multiple clock outputs
      clk_out :out std_logic_vector(7 downto 0); -- clock output 0 (275 MHz) Pin 115
      -- Clock output 1 (206.25 MHz) Pin 116
@@ -69,7 +69,7 @@ port(clk      :in std_logic;  --CLK 50M INPUT PIN 126
      -- Clock output 5 (103.125 MHz) Pin 120
      -- Clock output 6 (13.75 MHz) Pin 121
      -- Clock output 7 (14.732 MHz) Pin 123
-     miao_out :out std_logic);  -- LED OUTPUT  led display PIN 45
+     led_out :out std_logic);  -- LED OUTPUT  led display PIN 45
 	  
 end clock_pll_275MHz;
 
@@ -143,7 +143,7 @@ begin
   my_new_clock : pll_clock
   port map
   (-- Clock in ports
-    CLK_IN1 => CLK,
+    CLK_IN1 => clk_in,
     -- map clock out ports to clock internal (clk_int)
     CLK_OUT1 => clk_int(0),
     CLK_OUT2 => clk_int(1),
@@ -180,7 +180,7 @@ begin
         end if;
       end if;
 		-- blinking LED (D7) twice per second
-      miao_out <= not ff1; -- output for LED
+      led_out <= not ff1; -- output for LED
       clk_out(6) <= not ff2; -- output for Custom7 clock
     end process;
 

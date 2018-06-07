@@ -32,7 +32,7 @@ Data Sheet report:
 -----------------
 All values displayed in nanoseconds (ns)
 
-Clock clk to Pad
+Clock clk_in to Pad
 ------------+-----------------+------------+-----------------+------------+------------------+--------+
             |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
 Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
@@ -51,26 +51,26 @@ clk_out<5>  |         5.618(R)|      SLOW  |         2.022(R)|      FAST  |clk_i
             |         5.618(F)|      SLOW  |         2.028(F)|      FAST  |clk_int<5>        |   0.000|
 clk_out<6>  |         7.628(R)|      SLOW  |         3.168(R)|      FAST  |clk_int<0>        |   0.000|
 clk_out<7>  |         7.806(R)|      SLOW  |         3.191(R)|      FAST  |clk_int<4>        |   0.000|
-miao_out    |         7.235(R)|      SLOW  |         3.143(R)|      FAST  |clk_int<0>        |   0.000|
+led_out     |         7.235(R)|      SLOW  |         3.143(R)|      FAST  |clk_int<0>        |   0.000|
 ------------+-----------------+------------+-----------------+------------+------------------+--------+
 
-Clock to Setup on destination clock clk
+Clock to Setup on destination clock clk_in
 ---------------+---------+---------+---------+---------+
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-clk            |    5.315|         |         |         |
+clk_in         |    5.315|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 
-Analysis completed Thu Jun 07 00:35:55 2018 
+Analysis completed Thu Jun 07 10:01:06 2018 
 --------------------------------------------------------------------------------
 
 Trace Settings:
 -------------------------
 Trace Settings 
 
-Peak Memory Usage: 208 MB
+Peak Memory Usage: 209 MB
 
 
 

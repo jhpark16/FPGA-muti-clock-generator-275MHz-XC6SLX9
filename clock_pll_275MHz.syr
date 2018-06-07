@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.16 secs
+Total CPU time to Xst completion: 0.15 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.16 secs
+Total CPU time to Xst completion: 0.15 secs
  
 --> Reading design: clock_pll_275MHz.prj
 
@@ -135,12 +135,12 @@ Synthesizing Unit <clock_pll_275MHz>.
     Found 2-bit register for signal <cnt1>.
     Found 1-bit register for signal <ff1_0006>.
     Found 27-bit register for signal <_v3>.
-    Found 27-bit adder for signal <cnt1[26]_GND_6_o_add_2_OUT> created at line 164.
-    Found 4-bit adder for signal <cnt2[3]_GND_6_o_add_5_OUT> created at line 171.
-    Found 2-bit adder for signal <cnt1[1]_GND_6_o_add_10_OUT> created at line 189.
-    Found 27-bit comparator greater for signal <cnt1[26]_PWR_6_o_LessThan_2_o> created at line 163
-    Found 4-bit comparator greater for signal <cnt2[3]_PWR_6_o_LessThan_5_o> created at line 170
-    Found 2-bit comparator greater for signal <cnt1[1]_PWR_6_o_LessThan_10_o> created at line 188
+    Found 27-bit adder for signal <cnt1[26]_GND_6_o_add_2_OUT> created at line 169.
+    Found 4-bit adder for signal <cnt2[3]_GND_6_o_add_5_OUT> created at line 176.
+    Found 2-bit adder for signal <cnt1[1]_GND_6_o_add_10_OUT> created at line 195.
+    Found 27-bit comparator greater for signal <cnt1[26]_PWR_6_o_LessThan_2_o> created at line 168
+    Found 4-bit comparator greater for signal <cnt2[3]_PWR_6_o_LessThan_5_o> created at line 175
+    Found 2-bit comparator greater for signal <cnt1[1]_PWR_6_o_LessThan_10_o> created at line 194
     Summary:
 	inferred   3 Adder/Subtractor(s).
 	inferred  36 D-type flip-flop(s).
@@ -454,8 +454,8 @@ my_new_clock/pll_base_inst/CLKOUT4|    2.871|         |         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 5.00 secs
-Total CPU time to Xst completion: 5.62 secs
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 5.54 secs
  
 --> 
 

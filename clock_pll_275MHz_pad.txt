@@ -1,7 +1,7 @@
 Release 14.7 - par P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-Thu Jun 07 00:35:50 2018
+Thu Jun 07 10:01:01 2018
 
 
 INFO: The IO information is provided in three file formats as part of the Place and Route (PAR) process.  These formats are:
@@ -64,7 +64,7 @@ Pinout by Pin Number:
 |P42       |           |         |VCCO_2                    |         |           |2             |          |         |           |         |2.50     |          |           |                |
 |P43       |           |IOBS     |IO_L62N_D6_2              |UNUSED   |           |2             |          |         |           |         |         |          |           |                |
 |P44       |           |IOBM     |IO_L62P_D5_2              |UNUSED   |           |2             |          |         |           |         |         |          |           |                |
-|P45       |miao_out   |IOB      |IO_L49N_D4_2              |OUTPUT   |LVCMOS25*  |2             |12        |SLOW     |           |         |         |LOCATED   |NO         |NONE            |
+|P45       |led_out    |IOB      |IO_L49N_D4_2              |OUTPUT   |LVCMOS25*  |2             |12        |SLOW     |           |         |         |LOCATED   |NO         |NONE            |
 |P46       |           |IOBM     |IO_L49P_D3_2              |UNUSED   |           |2             |          |         |           |         |         |          |           |                |
 |P47       |           |IOBS     |IO_L48N_RDWR_B_VREF_2     |UNUSED   |           |2             |          |         |           |         |         |          |           |                |
 |P48       |           |IOBM     |IO_L48P_D7_2              |UNUSED   |           |2             |          |         |           |         |         |          |           |                |
@@ -145,7 +145,7 @@ Pinout by Pin Number:
 |P123      |clk_out<7> |IOB      |IO_L37N_GCLK12_0          |OUTPUT   |LVCMOS25*  |0             |12        |FAST     |           |         |         |LOCATED   |NO         |NONE            |
 |P124      |           |IOBM     |IO_L37P_GCLK13_0          |UNUSED   |           |0             |          |         |           |         |         |          |           |                |
 |P125      |           |         |VCCO_0                    |         |           |0             |          |         |           |         |2.50     |          |           |                |
-|P126      |clk        |IOB      |IO_L36N_GCLK14_0          |INPUT    |LVCMOS25*  |0             |          |         |           |NONE     |         |LOCATED   |NO         |NONE            |
+|P126      |clk_in     |IOB      |IO_L36N_GCLK14_0          |INPUT    |LVCMOS25*  |0             |          |         |           |NONE     |         |LOCATED   |NO         |NONE            |
 |P127      |           |IOBM     |IO_L36P_GCLK15_0          |UNUSED   |           |0             |          |         |           |         |         |          |           |                |
 |P128      |           |         |VCCINT                    |         |           |              |          |         |           |         |1.2      |          |           |                |
 |P129      |           |         |VCCAUX                    |         |           |              |          |         |           |         |2.5      |          |           |                |

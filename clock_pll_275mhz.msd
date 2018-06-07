@@ -4,7 +4,7 @@ Design name: 	clock_pll_275MHz.ncd;UserID=0xFFFFFFFF
 Architecture:	spartan6
 Part:        	6slx9tqg144
 Type:        	mask
-Date:        	Thu Jun 07 00:36:02 2018
+Date:        	Thu Jun 07 10:01:14 2018
 Bits:        	2722512
 1111111111111111
 1111111111111111

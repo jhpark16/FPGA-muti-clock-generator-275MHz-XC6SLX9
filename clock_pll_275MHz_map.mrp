@@ -11,7 +11,7 @@ Target Device  : xc6slx9
 Target Package : tqg144
 Target Speed   : -2
 Mapper Version : spartan6 -- $Revision: 1.55 $
-Mapped Date    : Thu Jun 07 00:35:35 2018
+Mapped Date    : Thu Jun 07 10:00:45 2018
 
 Design Summary
 --------------
@@ -90,7 +90,7 @@ Specific Feature Utilization:
 
 Average Fanout of Non-Clock Nets:                1.77
 
-Peak Memory Usage:  390 MB
+Peak Memory Usage:  391 MB
 Total REAL time to MAP completion:  6 secs 
 Total CPU time to MAP completion:   6 secs 
 
@@ -149,7 +149,7 @@ Section 6 - IOB Properties
 | IOB Name                           | Type             | Direction | IO Standard          | Diff  | Drive    | Slew | Reg (s)      | Resistor | IOB      |
 |                                    |                  |           |                      | Term  | Strength | Rate |              |          | Delay    |
 +---------------------------------------------------------------------------------------------------------------------------------------------------------+
-| clk                                | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| clk_in                             | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
 | clk_out<0>                         | IOB              | OUTPUT    | LVCMOS25             |       | 12       | FAST | ODDR         |          |          |
 | clk_out<1>                         | IOB              | OUTPUT    | LVCMOS25             |       | 12       | FAST | ODDR         |          |          |
 | clk_out<2>                         | IOB              | OUTPUT    | LVCMOS25             |       | 12       | FAST | ODDR         |          |          |
@@ -158,7 +158,7 @@ Section 6 - IOB Properties
 | clk_out<5>                         | IOB              | OUTPUT    | LVCMOS25             |       | 12       | FAST | ODDR         |          |          |
 | clk_out<6>                         | IOB              | OUTPUT    | LVCMOS25             |       | 12       | FAST |              |          |          |
 | clk_out<7>                         | IOB              | OUTPUT    | LVCMOS25             |       | 12       | FAST |              |          |          |
-| miao_out                           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| led_out                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
 +---------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Section 7 - RPMs

@@ -49,6 +49,7 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="clock_pll_275MHz.ut" xil_pn:subbranch="FPGAConfiguration"/>
     <file xil_pn:fileType="FILE_XPI" xil_pn:name="clock_pll_275MHz.xpi"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="clock_pll_275MHz.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="clock_pll_275MHz_envsettings.html"/>
     <file xil_pn:fileType="FILE_NCD" xil_pn:name="clock_pll_275MHz_guide.ncd" xil_pn:origination="imported"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="clock_pll_275MHz_map.map" xil_pn:subbranch="Map"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="clock_pll_275MHz_map.mrp" xil_pn:subbranch="Map"/>
@@ -100,7 +101,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1528302928" xil_pn:in_ck="-6994638332817404159" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="-3614707077044722616" xil_pn:start_ts="1528302919">
+    <transform xil_pn:end_ts="1528336837" xil_pn:in_ck="-6994638332817404159" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="-3614707077044722616" xil_pn:start_ts="1528336829">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
@@ -117,11 +118,11 @@
       <outfile xil_pn:name="webtalk_pn.xml"/>
       <outfile xil_pn:name="xst"/>
     </transform>
-    <transform xil_pn:end_ts="1528302928" xil_pn:in_ck="1935475924130634041" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-436895110416695433" xil_pn:start_ts="1528302928">
+    <transform xil_pn:end_ts="1528336837" xil_pn:in_ck="1935475924130634041" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-436895110416695433" xil_pn:start_ts="1528336837">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1528302934" xil_pn:in_ck="-6123931234728056240" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-1381342805679021158" xil_pn:start_ts="1528302928">
+    <transform xil_pn:end_ts="1528336844" xil_pn:in_ck="-6123931234728056240" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-1381342805679021158" xil_pn:start_ts="1528336837">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="_ngo"/>
@@ -130,11 +131,9 @@
       <outfile xil_pn:name="clock_pll_275MHz.ngd"/>
       <outfile xil_pn:name="clock_pll_275MHz_ngdbuild.xrpt"/>
     </transform>
-    <transform xil_pn:end_ts="1528302943" xil_pn:in_ck="8199959607039911121" xil_pn:name="TRANEXT_map_spartan6" xil_pn:prop_ck="-6293099775700639387" xil_pn:start_ts="1528302934">
+    <transform xil_pn:end_ts="1528336853" xil_pn:in_ck="8199959607039911121" xil_pn:name="TRANEXT_map_spartan6" xil_pn:prop_ck="-6293099775700639387" xil_pn:start_ts="1528336844">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
       <outfile xil_pn:name="clock_pll_275MHz.pcf"/>
       <outfile xil_pn:name="clock_pll_275MHz_map.map"/>
@@ -145,7 +144,7 @@
       <outfile xil_pn:name="clock_pll_275MHz_summary.xml"/>
       <outfile xil_pn:name="clock_pll_275MHz_usage.xml"/>
     </transform>
-    <transform xil_pn:end_ts="1528302957" xil_pn:in_ck="5559371631742515434" xil_pn:name="TRANEXT_par_spartan6" xil_pn:prop_ck="93661965788626211" xil_pn:start_ts="1528302943">
+    <transform xil_pn:end_ts="1528336868" xil_pn:in_ck="5559371631742515434" xil_pn:name="TRANEXT_par_spartan6" xil_pn:prop_ck="93661965788626211" xil_pn:start_ts="1528336853">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
@@ -159,7 +158,7 @@
       <outfile xil_pn:name="clock_pll_275MHz_pad.txt"/>
       <outfile xil_pn:name="clock_pll_275MHz_par.xrpt"/>
     </transform>
-    <transform xil_pn:end_ts="1528302975" xil_pn:in_ck="-2647369899126430782" xil_pn:name="TRANEXT_bitFile_spartan6" xil_pn:prop_ck="60834123659729680" xil_pn:start_ts="1528302957">
+    <transform xil_pn:end_ts="1528336887" xil_pn:in_ck="-2647369899126430782" xil_pn:name="TRANEXT_bitFile_spartan6" xil_pn:prop_ck="60834123659729680" xil_pn:start_ts="1528336868">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
@@ -175,8 +174,10 @@
     <transform xil_pn:end_ts="1528303220" xil_pn:in_ck="-2647369856547136052" xil_pn:name="TRAN_configureTargetDevice" xil_pn:prop_ck="8482462020707587906" xil_pn:start_ts="1528303218">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
     </transform>
-    <transform xil_pn:end_ts="1528302957" xil_pn:in_ck="-985735987957515699" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="-1758799009971969897" xil_pn:start_ts="1528302951">
+    <transform xil_pn:end_ts="1528336868" xil_pn:in_ck="-985735987957515699" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="-1758799009971969897" xil_pn:start_ts="1528336862">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>

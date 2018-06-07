@@ -28,7 +28,7 @@ NGDBUILD Design Results Summary:
   Number of errors:     0
   Number of warnings:   0
 
-Total memory usage is 159784 kilobytes
+Total memory usage is 159208 kilobytes
 
 Writing NGD file "clock_pll_275MHz.ngd" ...
 Total REAL time to NGDBUILD completion:  3 sec
